@@ -1,2 +1,8 @@
-echo привет
+echo как тебя зовут?
+
+read name
+
+echo привет $name
+
+echo $name >player
 
